@@ -1,0 +1,272 @@
+[
+  {
+    "LineID": "Shells",
+    "LineType": "main",
+    "Generator": {
+      "GeneratorID": "Seashell",
+      "GeneratorType": "base",
+      "GeneratorLevel": 8,
+      "MinGeneratorLevel": 5,
+      "MaxGeneratorLevel": 10,
+      "UsesBeforeRecharging": -1,
+      "ParentGeneratorID": -1,
+      "RechargingTime": 3
+    },
+    "AdditionalLineWeight": 1.0,
+    "Tiers": [
+      {"ItemID": "shell_1", "name": "Shrimpy Shell", "tier": 1, "isOpened": true},
+      {"ItemID": "shell_2", "name": "Basic Scallop", "tier": 2, "isOpened": true},
+      {"ItemID": "shell_3", "name": "Vibrant Scallop", "tier": 3, "isOpened": true},
+      {"ItemID": "shell_4", "name": "Dotty Cowrie", "tier": 4, "isOpened": true},
+      {"ItemID": "shell_5", "name": "Golden Conch", "tier": 5, "isOpened": true},
+      {"ItemID": "shell_6", "name": "Rare Nautilus", "tier": 6, "isOpened": true},
+      {"ItemID": "shell_7", "name": "Trumpet Shell", "tier": 7, "isOpened": true},
+      {"ItemID": "shell_8", "name": "Magic Conch", "tier": 8, "isOpened": true},
+      {"ItemID": "shell_9", "name": "Armored Shell", "tier": 9, "isOpened": true},
+      {"ItemID": "shell_10", "name": "Camouflaged Conch", "tier": 10, "isOpened": true},
+      {"ItemID": "shell_11", "name": "Closed Clam", "tier": 11, "isOpened": false},
+      {"ItemID": "shell_12", "name": "Mother of Pearl", "tier": 12, "isOpened": false}
+    ]
+  },
+  {
+    "LineID": "Floaties",
+    "LineType": "main",
+    "Generator": {
+      "GeneratorID": "Storage Bin",
+      "GeneratorType": "base",
+      "GeneratorLevel": 8,
+      "MinGeneratorLevel": 5,
+      "MaxGeneratorLevel": 11,
+      "UsesBeforeRecharging": -1,
+      "ParentGeneratorID": -1,
+      "RechargingTime": 3
+    },
+    "AdditionalLineWeight": 1.0,
+    "Tiers": [
+      {"ItemID": "floaties_1", "name": "Rubber Ducky", "tier": 1, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "floaties_2", "name": "Fancy Ducky", "tier": 2, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "floaties_3", "name": "Lifesaver Ring", "tier": 3, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "floaties_4", "name": "Pink Jelly Ring", "tier": 4, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "floaties_5", "name": "Brilliant Ring", "tier": 5, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "floaties_6", "name": "Mermaid Ring", "tier": 6, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "floaties_7", "name": "Ducky Floatie", "tier": 7, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "floaties_8", "name": "Unicorn Floatie", "tier": 8, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "floaties_9", "name": "Flamingo Floatie", "tier": 9, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "floaties_10", "name": "Royal Peacock Floatie", "tier": 10, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "floaties_11", "name": "Dino Floatie", "tier": 11, "isOpened": false, "AllowedInOrders": true}
+    ]
+  },
+  {
+    "LineID": "Swimming",
+    "LineType": "additional",
+    "Generator": {
+      "GeneratorID": "Storage Bin",
+      "GeneratorType": "base",
+      "GeneratorLevel": 8,
+      "MinGeneratorLevel": 6,
+      "MaxGeneratorLevel": 11,
+      "UsesBeforeRecharging": -1,
+      "ParentGeneratorID": -1,
+      "RechargingTime": 3
+    },
+    "AdditionalLineWeight": 0.2,
+    "Tiers": [
+      {"ItemID": "swimming_1", "name": "Swimming Goggles", "tier": 1, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "swimming_2", "name": "Snorkeling Goggles", "tier": 2, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "swimming_3", "name": "Basic Life Vest", "tier": 3, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "swimming_4", "name": "Diving Gloves", "tier": 4, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "swimming_5", "name": "Diving Flippers", "tier": 5, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "swimming_6", "name": "Mini Oxygen Tank", "tier": 6, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "swimming_7", "name": "Diving Adventure Tank", "tier": 7, "isOpened": true, "AllowedInOrders": true}
+    ]
+  },
+  {
+    "LineID": "Coffee",
+    "LineType": "main",
+    "Generator": {
+      "GeneratorID": "Coffee/Tea",
+      "GeneratorType": "base",
+      "GeneratorLevel": 7,
+      "MinGeneratorLevel": 4,
+      "MaxGeneratorLevel": 11,
+      "UsesBeforeRecharging": -1,
+      "ParentGeneratorID": -1,
+      "RechargingTime": 3
+    },
+    "AdditionalLineWeight": 1.0,
+    "Tiers": [
+      {"ItemID": "coffee_1", "name": "Empty To-Go Cup", "tier": 1, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "coffee_2", "name": "To-Go Cup", "tier": 2, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "coffee_3", "name": "Ready To-Go Cup", "tier": 3, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "coffee_4", "name": "Decaf Coffee", "tier": 4, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "coffee_5", "name": "Regular Coffee", "tier": 5, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "coffee_6", "name": "House Blend", "tier": 6, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "coffee_7", "name": "Sweet House Blend", "tier": 7, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "coffee_8", "name": "Barista’s Choice", "tier": 8, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "coffee_9", "name": "Caramel Macchiato", "tier": 9, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "coffee_10", "name": "Nice Hot Chocolate", "tier": 10, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "coffee_11", "name": "A Sweltering Coffee Drink", "tier": 11, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "coffee_12", "name": "Candied Berry Coffee", "tier": 12, "isOpened": false, "AllowedInOrders": true},
+      {"ItemID": "coffee_13", "name": "Lush Coffee Dessert", "tier": 13, "isOpened": false, "AllowedInOrders": true},
+      {"ItemID": "coffee_14", "name": "Sugary Tea Party", "tier": 14, "isOpened": false, "AllowedInOrders": true}
+    ]
+  },
+  {
+    "LineID": "Tea",
+    "LineType": "additional",
+    "Generator": {
+      "GeneratorID": "Coffee/Tea",
+      "GeneratorType": "base",
+      "GeneratorLevel": 7,
+      "MinGeneratorLevel": 5,
+      "MaxGeneratorLevel": 11,
+      "UsesBeforeRecharging": -1,
+      "ParentGeneratorID": -1,
+      "RechargingTime": 3
+    },
+    "AdditionalLineWeight": 0.2,
+    "Tiers": [
+      {"ItemID": "tea_1", "name": "Tea Bag", "tier": 1, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "tea_2", "name": "Hot Tea", "tier": 2, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "tea_3", "name": "Iced Lemon Tea", "tier": 3, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "tea_4", "name": "Country Iced Tea", "tier": 4, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "tea_5", "name": "Pitcher of Iced Tea", "tier": 5, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "tea_6", "name": "Elegant Teapot", "tier": 6, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "tea_7", "name": "Exquisite Teapot", "tier": 7, "isOpened": true, "AllowedInOrders": true}
+    ]
+  },
+  {
+    "LineID": "Bread",
+    "LineType": "main",
+    "Generator": {
+      "GeneratorID": "Coffee/Tea",
+      "GeneratorType": "base",
+      "GeneratorLevel": 7,
+      "MinGeneratorLevel": 4,
+      "MaxGeneratorLevel": 11,
+      "UsesBeforeRecharging": -1,
+      "ParentGeneratorID": -1,
+      "RechargingTime": 3
+    },
+    "AdditionalLineWeight": 1.0,
+    "Tiers": [
+      {"ItemID": "bread_1", "name": "Sack of Flour", "tier": 1, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "bread_2", "name": "Proofed Dough", "tier": 2, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "bread_3", "name": "Beginner's Bread", "tier": 3, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "bread_4", "name": "Sourdough Loaf", "tier": 4, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "bread_5", "name": "Sliced Loaf", "tier": 5, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "bread_6", "name": "Toast with Butter and Jam", "tier": 6, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "bread_7", "name": "Jelly Sandwich", "tier": 7, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "bread_8", "name": "Half a Ham Sandwich", "tier": 8, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "bread_9", "name": "Ham n' Cheese Sammy", "tier": 9, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "bread_10", "name": "Sub With the Fixins'", "tier": 10, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "bread_11", "name": "Bagel Sandwich", "tier": 11, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "bread_12", "name": "Ham and Cheese Croissant","tier": 12,"isOpened": false,"AllowedInOrders": true},
+      {"ItemID": "bread_13", "name": "Gooey Cheeseburger","tier": 13,"isOpened": false,"AllowedInOrders": true},
+      {"ItemID": "bread_14", "name": "Cheeseburger and Fries","tier": 14,"isOpened": false,"AllowedInOrders": true},
+      {"ItemID": "bread_15","name": "Luxe Cheeseburger Meal","tier": 15,"isOpened": false,"AllowedInOrders": true}
+    ]
+  },
+  {
+    "LineID": "Potatoes",
+    "LineType": "additional",
+    "Generator": {
+      "GeneratorID": "Coffee/Tea",
+      "GeneratorType": "base",
+      "GeneratorLevel": 7,
+      "MinGeneratorLevel": 5,
+      "MaxGeneratorLevel": 11,
+      "UsesBeforeRecharging": -1,
+      "ParentGeneratorID": -1,
+      "RechargingTime": 3
+    },
+    "AdditionalLineWeight": 0.2,
+    "Tiers": [
+      {"ItemID": "potato_1", "name": "Raw Potatoes", "tier": 1, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "potato_2", "name": "Cut Potatoes", "tier": 2, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "potato_3", "name": "Classic French Fries", "tier": 3, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "potato_4", "name": "Ketchup Fries", "tier": 4, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "potato_5", "name": "Plate of Waffle Fries", "tier": 5, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "potato_6", "name": "Nugget & Fries Combo", "tier": 6, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "potato_7", "name": "Family Bucket", "tier": 7, "isOpened": true, "AllowedInOrders": true}
+    ]
+  },
+  {
+    "LineID": "Orange",
+    "LineType": "main",
+    "Generator": {
+      "GeneratorID": "Orange Generators",
+      "GeneratorType": "time",
+      "GeneratorLevel": 7,
+      "MinGeneratorLevel": 6,
+      "MaxGeneratorLevel": 9,
+      "UsesBeforeRecharging": 8,
+      "ParentGeneratorID": -1,
+      "RechargingTime": 120
+    },
+    "AdditionalLineWeight": 1.0,
+    "Tiers": [
+      {"ItemID": "orange_1", "name": "Whole Orange", "tier": 1, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "orange_2", "name": "Orange Slices", "tier": 2, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "orange_3", "name": "Orange Cookies", "tier": 3, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "orange_4", "name": "Fun Orange Cupcake", "tier": 4, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "orange_5", "name": "Cozy Orange Cake", "tier": 5, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "orange_6", "name": "Orange Dream Cake", "tier": 6, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "orange_7", "name": "Deluxe Dream Cake", "tier": 7, "isOpened": true, "AllowedInOrders": true}
+    ]
+  },
+  {
+    "LineID": "Seafood",
+    "LineType": "main",
+    "Generator": {
+      "GeneratorID": "Seafood Generators",
+      "GeneratorType": "base",
+      "GeneratorLevel": 7,
+      "MinGeneratorLevel": 5,
+      "MaxGeneratorLevel": 11,
+      "UsesBeforeRecharging": -1,
+      "ParentGeneratorID": -1,
+      "RechargingTime": 3
+    },
+    "AdditionalLineWeight": 1.0,
+    "Tiers": [
+      {"ItemID": "seafood_1", "name": "Raw Shrimp", "tier": 1, "isOpened": true, "AllowedInOrders": false},
+      {"ItemID": "seafood_2", "name": "Fresh Fish", "tier": 2, "isOpened": true, "AllowedInOrders": false},
+      {"ItemID": "seafood_3", "name": "Bucket O' Fish", "tier": 3, "isOpened": true, "AllowedInOrders": false},
+      {"ItemID": "seafood_4", "name": "Fish for Sale", "tier": 4, "isOpened": true, "AllowedInOrders": false},
+      {"ItemID": "seafood_5", "name": "Prepped Seafood", "tier": 5, "isOpened": true, "AllowedInOrders": false},
+      {"ItemID": "seafood_6", "name": "Pasta Pescatore", "tier": 6, "isOpened": true, "AllowedInOrders": false},
+      {"ItemID": "seafood_7", "name": "Fresh Oysters", "tier": 7, "isOpened": true, "AllowedInOrders": false},
+      {"ItemID": "seafood_8", "name": "Boiled Whole Crab", "tier": 8, "isOpened": true, "AllowedInOrders": false},
+      {"ItemID": "seafood_9", "name": "Lobster Dinner", "tier": 9, "isOpened": true, "AllowedInOrders": false},
+      {"ItemID": "seafood_10", "name": "Big Seafood Tower", "tier": 10, "isOpened": true, "AllowedInOrders": false}
+    ]
+  },
+  {
+    "LineID": "Fish",
+    "LineType": "main",
+    "Generator": {
+      "GeneratorID": "Prepped Seafood",
+      "GeneratorType": "nested",
+      "GeneratorLevel": 7,
+      "MinGeneratorLevel": 4,
+      "MaxGeneratorLevel": 11,
+      "UsesBeforeRecharging": 12,
+      "ParentGeneratorID": "Seafood Generators",
+      "RechargingTime": -1
+    },
+    "AdditionalLineWeight": 1.0,
+    "Tiers": [
+      {"ItemID": "fish_1", "name": "Slice of Salmon", "tier": 1, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "fish_2", "name": "Honey Glazed Salmon", "tier": 2, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "fish_3", "name": "Whole Grilled Fish", "tier": 3, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "fish_4", "name": "Grilled Fish for Two", "tier": 4, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "fish_5", "name": "Shrimp Linguini", "tier": 5, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "fish_6", "name": "Pasta Pescatore", "tier": 6, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "fish_7", "name": "Fresh Oysters", "tier": 7, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "fish_8", "name": "Boiled Whole Crab", "tier": 8, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "fish_9", "name": "Lobster Dinner", "tier": 9, "isOpened": true, "AllowedInOrders": true},
+      {"ItemID": "fish_10", "name": "Big Seafood Tower", "tier": 10, "isOpened": true, "AllowedInOrders": true}
+    ]
+  }
+]
